@@ -1,8 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"adsmod1/emotions"
+	"fmt"
+)
 
 func main() {
-	fmt.Print("this is from adsmod1")
-	//fmt.Print(happy())
+	fmt.Println("this is from adsmod1")
+	fmt.Println(emotions.Happy())
 }
