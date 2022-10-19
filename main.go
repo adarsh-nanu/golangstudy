@@ -1,6 +1,7 @@
 package main
 
 import (
+	"adsmod1/communication"
 	"adsmod1/emotions"
 	"fmt"
 )
@@ -8,4 +9,5 @@ import (
 func main() {
 	fmt.Println("this is from adsmod1")
 	fmt.Println(emotions.Happy())
+	communication.Sever()
 }
