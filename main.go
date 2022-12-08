@@ -9,5 +9,6 @@ import (
 func main() {
 	fmt.Println("this is from adsmod1")
 	fmt.Println(emotions.Happy())
-	communication.Sever()
+	go communication.Sever()
+	//go communication.Client()
 }
